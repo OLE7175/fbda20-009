@@ -1,0 +1,115 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./images/history.jpg);
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+.olorato {
+	width: 1170px;
+	margin: auto;
+}
+.nav {
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.nav li {
+	display: inline-block;
+}
+.nav li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: poppins;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.nav li a:hover {
+	background: #fff;
+	color: #333;
+}
+.logo {
+	float: left;
+}
+.logo img {
+	width: 100%;
+	padding: 15px 0;
+}
+.mahudirr {
+	position: absolute;
+	width: 600px;
+	height: 300px;
+	margin: 20% 30%;
+	text-align: center;
+}
+.mahudirr h1 {
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 60px;
+}
+.mahudirr h1 span {
+	color: #00fecb;
+}
+.mahudirr h2 {
+	text-align: center;
+	color: skyblue;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+.mahudirr a {
+	border: 1px solid #fff;
+	padding: 10px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 20px;
+	display: inline-block;
+	color: #fff;
+}
+.mahudirr a:hover {
+	background: #fff;
+	color: #333;
+}
+/*resposive*/
+
+@media (max-width:600px) {
+	.olorato {
+		width: 100%;
+	}
+	.logo {
+		float: none;
+		width: 50%;
+		text-align: center;
+		margin: auto;
+	}
+	img {
+		width: ;
+	}
+	.nav {
+		float: none;
+		margin-top: 0;
+	}
+	.nav li a {
+		padding: 5px;
+		font-size: 11px;
+	}
+	.nav {
+		text-align: center;
+	}
+	.mahudirr {
+		width: 100%;
+		height: auto;
+		margin: 30% 0;
+	}
+	.mahudirr h1 {
+		font-size: 30px;
+	}
+}
