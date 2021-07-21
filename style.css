@@ -4,7 +4,7 @@
 }
 body {
 	font-family: 'Poppins', sans-serif;
-	background:  url (./images/history.jpg);
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./images/history.jpg);
 	height: 100vh;
 	-webkit-background-size: cover;
 	background-size: cover;
